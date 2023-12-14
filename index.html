@@ -1,1 +1,175 @@
-Hello World
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- <link rel="icon" type="image/svg+xml" href="resources/favicon.svg"> -->
+		<!-- <link rel="icon" type="image/png" href="resources/favicon.png"> -->
+
+		<!-- Bootstrap CSS -->
+		<link href="resources/style.css" rel="stylesheet">
+        <style>
+            body {background-color:rgb(203, 226, 245)}
+
+        </style>
+		<!-- Title -->
+		<title>Elaine Li: Homepage</title>
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-md navbar-light border-bottom">  <!-- pt-5 pb-4 border-bottom mb-5 -->
+			<div class="container">
+				<a class="navbar-brand" href="index.html">Elaine Li</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Content -->
+		<main class="container">
+
+			<!-- About -->
+			<div class="content about">
+				<div class="row">
+					<div class="col-md-4 about-side">
+						<div class="row">
+							<div class="col-6 col-sm-5 col-md-12">
+								<div class="about-img p-2 pt-3 pb-4">
+									<img class="rounded-circle border" src="personal/me.JPG">
+								</div>
+							</div>
+							<div class="col-6 col-sm-7 col-md-12 ps-md-4">
+								<div class="contact-head">Contact:</div>
+								<div class="row contact-detail">
+									<div class="col col-icon"><i class="fas fa-envelope"></i></div>
+									<div class="col"><span class="email"> efl9013 </span></div>
+								</div>
+								<!-- <div class="row contact-detail">
+									<div class="col col-icon"><i class="fas fa-phone"></i></div>
+									<div class="col"><span class="phone">555-777</span></div>
+								</div> -->
+								<div class="row contact-detail">
+									<div class="col col-icon"><i class="fas fa-map-marker-alt"></i></div>
+									<div class="col">
+										<address>
+											60 Fifth Avenue<br>
+											Room 442<br>
+											New York, NY 10011<br>
+											<small><a href="https://goo.gl/maps/tznxCBet1Xx7v7Lf6">(map)</a></small>
+										</address>
+									</div>
+								</div>
+								<div class="container contact-more">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8 about-main p-3">
+						<h1>About Me</h1>
+						<p class="lead">
+							I am a fourth year PhD student in computer science at the <a href="https://cims.nyu.edu/">Courant Institute, New York University</a>, working with <a href="https://cs.nyu.edu/~wies/">Thomas Wies</a>.
+						</p>
+						<p class="lead">
+							I am broadly interested in logic and formal verification. My current work focuses on the theory of multiparty session types. 
+						</p>
+						<p class="lead">
+							I received my B.S. (Hons) from Yale-NUS College, Singapore. Under the supervision of <a href="https://www.comp.nus.edu.sg/~hobor/">Aquinas Hobor</a> and <a href="https://www.comp.nus.edu.sg/~fstephan/">Frank Stephan</a>, my capstone thesis formalized the theory of block pumpable languages in Coq.  
+						</p>
+                        <p class="lead">
+							Between Yale-NUS and NYU, I spent a year verifying blockchain consensus protocols at <a href="https://runtimeverification.com/">Runtime Verification</a>.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Publications -->
+			<div class="content publications">
+				<h1>Publications</h1>
+				<!-- 
+
+					MOVE PDFS
+
+				 -->
+				<ol class="pub-list">
+					<li class="pub-item">
+						<h6>Deciding Subtyping for Asynchronous Multiparty Sessions</h6>
+						Elaine Li, 
+                        Felix Stutz, 
+                        and Thomas Wies
+						<br>
+						Under submission
+					</li>
+					<li class="pub-item">
+						<h6>Complete Multiparty Session Type Projection with Automata</h6>
+						Elaine Li, 
+                        Felix Stutz, 
+                        Thomas Wies
+                        and Damien Zufferey
+						<br>
+						CAV 2023
+						<div class="links">
+							<a class="pdf" href="academic/cav23_paper.pdf">PDF</a>
+							<a class="talk" href="academic/cav23_slides.pdf">Slides</a>
+						</div>
+                    </li>
+					<li class="pub-item">
+						<h6>Formalizing Correct-by-Construction Casper in Coq</h6>
+						Elaine Li,
+                        Traian Serbanuta, 
+                        Denisa Diaconescu, 
+                        Vlad Zamfir, 
+                        and Grigore Rosu
+						<br>
+						ICBC 2020
+						<div class="links">
+							<a class="pdf" href="academic/icbc20_paper.pdf">PDF</a>
+                            <a class="talk" href="academic/icbc20_slides.pdf">Slides</a>
+						</div>
+					</li>
+                    </li>
+					<li class="pub-item">
+						<h6>Pumping, With or Without Choice</h6>
+						Aquinas Hobor, 
+                        Elaine Li
+                        and Frank Stephan
+						<br>
+						APLAS 2019
+						<div class="links">
+							<a class="pdf" href="academic/aplas19_paper.pdf">PDF</a>
+                            <a class="talk" href="academic/aplas19_slides.pdf">Slides</a>
+                            <a class="link" href="https://github.com/atufchoice/blockpump">Coq artifact</a>
+						</div>
+					</li>
+					</li>
+					<li class="pub-item">
+						<h6>Formalizing Block Pumpable Language Theory</h6>
+						Elaine Li
+						<br>
+						Yale-NUS College Capstone Thesis, 2019
+						<div class="links">
+							<a class="pdf" href="academic/capstone19_paper.pdf">PDF</a>
+                            <a class="talk" href="academic/capstone19_slides.pdf">Slides</a>
+						</div>
+					</li>
+				</ol>
+			</div>
+
+			<!-- Professional activities -->
+			<div class="content activities">
+				<h1>Professional Activities</h1>
+                <dl>
+					<dt>Program Committee</dt>
+					<dd>
+						Dafny 2024
+					</dd>
+                </dl>
+			</div> 
+		</main>
+
+		<!-- Bootstrap JavaScript -->
+		<!-- TODO: more lightweight js -->
+		<script src="resources/bootstrap.bundle.min.js" async></script>
+	</body>
+</html>
