@@ -12934,7 +12934,7 @@ main {
 }
 .content h1::before, .content .h1::before {
   color: #6c757d;
-  content: "# ";
+  content: "";
 }
 .content h1, .content .h1, .content h2, .content .h2, .content h3, .content .h3 {
   text-transform: lowercase;
