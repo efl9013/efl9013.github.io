@@ -12937,7 +12937,7 @@ main {
   content: "";
 }
 .content h1, .content .h1, .content h2, .content .h2, .content h3, .content .h3 {
-  text-transform: lowercase;
+  
 }
 
 .about .about-img img {
